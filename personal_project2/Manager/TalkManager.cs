@@ -79,7 +79,6 @@ public class TalkManager : MonoBehaviour
         talkData_after.Add(3000, new string[] { "찹쌀이 : ...외로워..", "찹쌀이 : 넌 부럽다.." });      //찹쌀이
         talkData_after.Add(4000, new string[] { "삼색이 : ...왜앵." });      //삼색이
         //Next Block 스크립트
-        //talkData_after.Add(370, new string[] { "이제... 집으로 가자." }); //다음 스테이지로 가는 문(이제 지나갈 수 있음)
         talkData_after.Add(370, new string[] { "가야 할 곳이... 기억이 안 난다.", "주변 개들에게 물어보자." }); //다음 스테이지로 가는 문(아직 못 지나감)
 
         // 스테이지5
@@ -104,6 +103,7 @@ public class TalkManager : MonoBehaviour
         else
             return talkData[id][talkIndex];
     }
+
     // 조건 충족 전 
     public string GetTalk1(int id, int talkIndex)
     { //충족 전의 대사

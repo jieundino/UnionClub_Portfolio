@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+// 스테이지5에서 책상씬으로 이동하고 작동되는 매니저
 public class DeskManager : MonoBehaviour
 {
     public Sprite pencilAfter;

@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Video;
 using UnityEngine.SceneManagement;
 
+// 비디오 관리하는 스크립트
 public class VideoManager : MonoBehaviour
 {
     // 비디오가 끝나면 자동으로 다음 씬으로 이동함.

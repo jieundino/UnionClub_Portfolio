@@ -91,6 +91,9 @@ public class GameManager : MonoBehaviour
         Application.Quit();
     }
 
+    // playerController, sidePlayercontroller스크립트에서 오브젝트를 향해 ray를 쏘고 있는 상태에서  
+    // space바 누르면 이 GameManager의 Action 메소드 호출되어서
+    // playerController에서 ray에 맞은 오브젝트 매개변수로 가져와서 실행됨.
     public void Action(GameObject scanObj)
     {
         scanObject = scanObj;
